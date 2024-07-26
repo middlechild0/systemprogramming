@@ -9,4 +9,5 @@
   <li>Shawn Douglas</li>
   <li>Eliaship Mokaya</li>
   <li>Carlos Kirwa</li>
+  <li>Peter Kariuki</li>
 </ul>
