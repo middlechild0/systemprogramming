@@ -3,13 +3,13 @@
 #include <stdlib.h>
 
 int closestInteger(int num) {
-    int closest_lower_root = sqrt(num);
-    int closest_higher_root = closest_lower_root + 1;
+    int lower_root = sqrt(num);
+    int higher_root = lower_root + 1;
 
-    if (abs(num - closest_lower_root * closest_lower_root) <= abs(num - closest_higher_root * closest_higher_root)) {
-        return closest_lower_root * closest_lower_root;
+    if (abs(num - lower_root * lower_root) <= abs(num - higher_root * higher_root)) {
+        return lower_root * lower_root;
     } else {
-        return closest_higher_root * closest_higher_root;
+        return higher_root * higher_root;
     }
 }
 
@@ -27,9 +27,8 @@ int main() {
         }
     }
 
-    int closest_integer = closestInteger(input);
-    printf("The closest integer with a whole number square root to %d is %d.\n", input, closest_integer);
+    int closest = closestInteger(input);
+    printf("The closest integer with a whole number square root to %d is %d.\n", input, closest);
 
     return 0;
 }
-
