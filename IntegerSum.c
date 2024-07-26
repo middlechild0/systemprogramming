@@ -18,15 +18,11 @@ int main() {
 
     // Read numbers from the file
     while (fscanf(file, "%d", &num) != EOF) {
-
         sum += num;
-        puts(&"sum "[sum]);
         count++;
     }
 
-    /**
-    * checking if any integer number was found
-*/
+    // Check if any integers were read
     if (count > 0) {
         double average = (double) sum / count;
         printf("Sum: %d\n", sum);
