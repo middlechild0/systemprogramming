@@ -3,6 +3,10 @@
 
 ##  GROUP MEMBERS
 <ul>
-  <li></li>
-  <li></li>
+  <li>Peter Kangethe</li>
+  <li>Jimmy Mathu</li>
+  <li>James Mukumu</li>
+  <li>Shawn Douglas</li>
+  <li>Eliaship Mokaya</li>
+  <li>Carlos Kirwa</li>
 </ul>
